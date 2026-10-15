@@ -19,6 +19,7 @@ h1 {
 .home_cabecalho {
     background-color: #E6D3B3;
     border: 2px solid #7a5230;
+    height: 100px
 }
 
 .home_container {
@@ -38,7 +39,7 @@ h1 {
 
 .home_container img {
     height: auto;
-    width: 100px;
+    width: 150px;
 }
 
 .nav_cabecalho {
@@ -119,6 +120,8 @@ h1 {
     margin-top: 100px;
     margin-bottom: 100px;
     font-family: 'Playfair Display', Georgia, serif;
+    gap: 30px;
+    text-transform: uppercase;
 }
 
 
