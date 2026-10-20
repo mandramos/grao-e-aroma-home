@@ -1,0 +1,454 @@
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+ h1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+.home_cabecalho {
+    background-color: #f4eada;
+    border: 2px solid #7a5230;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+
+.cabecalho_container .logo {
+    height: auto;
+    width: 100px;
+}
+
+.nav_cabecalho {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.nav_cabecalho a {
+    text-decoration: none;
+    color: #3e2a1f;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 16px;
+}
+
+.icone_menu {
+    display: none;
+}
+
+.home_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 40px;
+    gap: 20px;
+}
+
+
+.home_banner {
+    background-color: #E6D3B3;
+
+}
+
+.banner_container img {
+    width: 500px;
+
+}
+
+.box_texto span {
+    color: #3e2a1f;
+    font-size: 50px;
+    display: block;
+    margin-bottom: 30px;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 500;
+    
+}
+
+.box_texto p {
+    font-size: 20px;
+    margin-bottom: 60px;
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+.box_texto a {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #e6d3b3;
+    text-decoration: none;
+    background-color: #32452c;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+.home_subtitulo {
+    color: #3e2a1f;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Playfair Display', Georgia, serif;
+    gap: 30px;
+    text-transform: uppercase;
+    font-size: 30px
+}
+
+
+
+.container_cafes {
+    background-color: #f4eada;;
+    margin-bottom: 20px;
+
+}
+
+.vermelha_e_silvestre,
+.cacau_e_fineza,
+.sitrico_e_brilho,
+.caramelo_dourado {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 650px;
+}
+
+.cafes {
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+.cafes img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img_mobile {
+    display: none;
+}
+
+.vermelha_e_silvestre img,
+.cacau_e_fineza img,
+.sitrico_e_brilho img,
+.caramelo_dourado img {
+    width: 300px;
+}
+
+
+.vermelha_e_silvestre h3,
+.cacau_e_fineza h3,
+.sitrico_e_brilho h3,
+.caramelo_dourado h3 {
+    font-size: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #3e2a1f;
+    ;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.vermelha_e_silvestre p,
+.cacau_e_fineza p,
+.sitrico_e_brilho p,
+.caramelo_dourado p {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #7a5230;
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+.texto_cafe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+footer {
+    background-color: #f4eada;
+    border: 2px solid #7a5230;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 200px;
+}
+
+
+.img_footer {
+    height: auto;
+    width: 100px;
+}
+
+.nav_footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.nav_footer a {
+    text-decoration: none;
+    color: #3e2a1f;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 16px;
+}
+
+.img_2{
+    width: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nossa_historia {
+    background-color: #f5eee5;
+    padding: 80px 8%;
+}
+
+.historia_container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.historia_conteudo,
+.historia_img {
+    flex: 1;
+    min-width: 0;
+}
+
+.historia_destaque {
+    color: #986b46;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.historia_conteudo h2 {
+    color: #402b20;
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 18px 0;
+}
+
+.historia_conteudo p {
+    color: #68574b;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.historia_foto img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .icone_menu {
+        display: block;
+        width: 50px;
+        color: #3e2a1f;
+    }
+
+    .nav_cabecalho {
+        display: none;
+    }
+
+
+    .banner_container img {
+        width: 250px;
+
+    }
+
+
+    .cafes {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        gap: 28px;
+    }
+
+
+
+    .box_texto span {
+        display: flex;
+        font-size: 40px;
+        justify-content: center;
+
+    }
+
+    .container_cafes {
+        padding: 40px 16px;
+        width: 100%;
+    }
+
+    .box_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner_container {
+        gap: 100px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .vermelha_e_silvestre p,
+    .cacau_e_fineza p,
+    .sitrico_e_brilho p,
+    .caramelo_dourado p {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+
+    }
+
+    .vermelha_e_silvestre h3,
+    .cacau_e_fineza h3,
+    .sitrico_e_brilho h3,
+    .caramelo_dourado h3 {
+        font-size: 25px;
+
+    }
+
+    .vermelha_e_silvestre img,
+    .cacau_e_fineza img,
+    .sitrico_e_brilho img,
+    .caramelo_dourado img {
+        width: 200px;
+    }
+
+    .img_mobile {
+        display: block;
+    }
+
+    .vermelha_e_silvestre,
+    .cacau_e_fineza,
+    .sitrico_e_brilho,
+    .caramelo_dourado {
+
+        gap: 10px;
+
+    }
+
+
+    .banner_container>img {
+        display: none;
+    }
+
+
+    .home_subtitulo {
+        font-size: 20px;
+    }
+
+
+
+    .vermelha_e_silvestre,
+    .sitrico_e_brilho {
+        gap: 10px;
+    }
+
+    .cafes {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .vermelha_e_silvestre,
+    .cacau_e_fineza,
+    .sitrico_e_brilho,
+    .caramelo_dourado {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        gap: 10px;
+    }
+
+
+    .vermelha_e_silvestre img,
+    .cacau_e_fineza img,
+    .sitrico_e_brilho img,
+    .caramelo_dourado img {
+        width: 45%;
+        max-width: 160px;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .texto_cafe {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .texto_cafe h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        overflow-wrap: break-word;
+    }
+
+    .texto_cafe p {
+        font-size: 12px;
+        overflow-wrap: break-word;
+    }
+
+    .footer_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .img_footer {
+        width: 60px;
+    }
+}
